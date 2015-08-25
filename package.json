@@ -1,14 +1,11 @@
 {
-  "name": "eslint-config-standard",
+  "name": "@keis/eslint-config-standard",
   "description": "JavaScript Standard Style - ESLint Shareable Config",
   "version": "4.1.0",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
     "url": "http://feross.org/"
-  },
-  "bugs": {
-    "url": "https://github.com/feross/eslint-config-standard/issues"
   },
   "peerDependencies": {
     "eslint": "^1.0.0",
@@ -19,7 +16,6 @@
     "eslint-plugin-standard": "^1.1.0",
     "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/feross/eslint-config-standard",
   "keywords": [
     "standard",
     "style checker",
@@ -50,7 +46,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/eslint-config-standard.git"
+    "url": "git://github.com/keis/eslint-config-standard.git"
   },
   "scripts": {
     "test": "tape test/*.js"
